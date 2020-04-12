@@ -19,3 +19,13 @@ Trying to copy all the files manual takes time, and this script automate the pro
 ## How ?
 
 Run the script with powershell to back-up the files.
+
+If your Computer don't allow running unsigned scripts on your local computer, You need to follow these steps first:
+
+* Run PowerShell as Administrator
+* Remove restriction:
+  * Run the command `Set-ExecutionPolicy unrestricted`
+  * Confirm the change.
+  * This will allow running unsigned scripts that you write on your local computer and signed scripts from Internet.
+* You can change your settings back to restricted by running the command:
+  * `Set-ExecutionPolicy restricted`
