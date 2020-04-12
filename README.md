@@ -29,3 +29,12 @@ If your Computer don't allow running unsigned scripts on your local computer, Yo
   * This will allow running unsigned scripts that you write on your local computer and signed scripts from Internet.
 * You can change your settings back to restricted by running the command:
   * `Set-ExecutionPolicy restricted`
+
+
+## Restore
+
+To restore the backup,
+
+* Copy game file and the appmanifest to steam folder
+* Run the registry files and merge.
+* You are done
