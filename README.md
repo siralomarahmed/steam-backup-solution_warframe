@@ -14,7 +14,7 @@ A script to back-up related game files into one directory.
 
 Normaly, backing-up games on steam is simple, as this type of service is provided on the client. But for some reason, this game won't back-up.
 
-Trying to copy all the files manual takes time, and this script automate the process for you.
+Trying to copy all the files manually takes time, and this script automate the process for you.
 
 ## How ?
 
@@ -33,8 +33,16 @@ If your Computer don't allow running unsigned scripts on your local computer, Yo
 
 ## Restore
 
-To restore the backup,
+### Using the restore script
+
+* Run the script with powershell
+  * It should move the game file
+  * move the appmanifest
+  * and merge the registries
+    * registeries will require your approval.
+
+### To restore the backup Manually,
 
 * Copy game file and the appmanifest to steam folder
 * Run the registry files and merge.
-* You are done
+
